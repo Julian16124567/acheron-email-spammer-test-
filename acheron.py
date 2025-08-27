@@ -59,13 +59,13 @@ ascii_art =r"""
                               *ver.4.0.0 by N3x0s*
 ▖▄▖▄▖▄▖▄▖▄▖▄▖▄▖▄▖▄▖▄▖▄▖▄▖▄▖▄▖▄▖▄▖▄▖▄▖▄▖▄▖▄▖▄▖▄▖▄▖▄▖▖▄▖▄▖▄▖▄▖▄▖▄▖▄▖▄▖▄▖▄
 """
-
+#####################code#################
 print("\033[31m" + ascii_art + "\033[0m")
 
 # Init Colorama
 init(autoreset=True)
 
-# Coole Überschrift
+# Überschrift
 figlet = Figlet(font='slant')
 print(Fore.CYAN + figlet.renderText("Mail Spammer"))
 print("\033[31m" + line + "\033[0m")
